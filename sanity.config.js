@@ -4,11 +4,11 @@ import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas'
 
 export default defineConfig({
-  name: 'default',
+  name: import.meta.env.SANITY_STUDIO_PROJECT_NAME,
   title: 'betServer',
 
-  projectId: 'bhr0u0c2',
-  dataset: 'production',
+  projectId: import.meta.env.SANITY_STUDIO_PROJECT_ID,
+  dataset: import.meta.env.SANITY_STUDIO_DATASET,
 
   plugins: [deskTool(), visionTool()],
 
