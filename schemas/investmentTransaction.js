@@ -6,8 +6,7 @@ export default {
     {
       name: 'investmentItem',
       title: 'Investment Item',
-      type: 'reference',
-      to: [{type: 'investmentItem'}],
+      type: 'string',
     },
     {
       name: 'amount',
@@ -21,6 +20,11 @@ export default {
       options: {
         list: ['online', 'cash'],
       },
+    },
+    {
+      name: 'date',
+      title: 'Date',
+      type: 'datetime',
     },
     {
       name: 'receipt',
