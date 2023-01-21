@@ -1,6 +1,22 @@
 export default {
-  name: 'saleTransactions',
-  title: 'Sale Transactions',
+  name: 'saleTransaction',
+  title: 'Sale Transaction',
   type: 'document',
-  fields: [],
+  fields: [
+    {
+      name: 'saleItem',
+      title: 'Sale Item',
+      type: 'string',
+    },
+    {
+      name: 'unit',
+      title: 'Unit',
+      type: 'number',
+    },
+    {
+      name: 'amount',
+      title: 'Amount',
+      type: 'number',
+    },
+  ],
 }
