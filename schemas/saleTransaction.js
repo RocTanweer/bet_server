@@ -18,5 +18,10 @@ export default {
       title: 'Amount',
       type: 'number',
     },
+    {
+      name: 'date',
+      title: 'Date',
+      type: 'datetime',
+    },
   ],
 }
