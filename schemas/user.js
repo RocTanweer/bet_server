@@ -26,7 +26,11 @@ export default {
       title: 'Password',
       type: 'string',
     },
-
+    {
+      name: 'profilePicURL',
+      title: 'Profile Pic URL',
+      type: 'string',
+    },
     {
       name: 'profilePic',
       title: 'Profile Pic',
