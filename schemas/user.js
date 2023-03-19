@@ -39,5 +39,13 @@ export default {
         hotspot: true,
       },
     },
+    {
+      name: 'loginType',
+      title: 'Login Type',
+      type: 'string',
+      options: {
+        list: ['manual', 'gOAuth'],
+      },
+    },
   ],
 }
