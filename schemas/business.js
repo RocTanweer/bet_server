@@ -1,17 +1,17 @@
 export default {
   name: 'business',
-  title: 'Business',
+  title: 'Businesses',
   type: 'document',
   fields: [
     {
-      name: 'totalDeposited',
-      title: 'Total Deposited',
-      type: 'number',
+      name: 'name',
+      title: 'Name',
+      type: 'string',
     },
     {
-      name: 'currentBalance',
-      title: 'Current Balance',
-      type: 'number',
+      name: 'email',
+      title: 'Email',
+      type: 'string',
     },
   ],
 }
