@@ -1,15 +1,19 @@
-import investmentTransaction from './investmentTransaction'
-import investmentItem from './investmentItem'
-import saleItem from './saleItem'
-import saleTransaction from './saleTransaction'
 import business from './business'
-import user from './user'
+import cash from './cash'
+import expense from './expense'
+import expenseItem from './expenseItem'
+import investment from './investment'
+import product from './product'
+import revenue from './revenue'
+import withdraw from './withdraw'
 
 export const schemaTypes = [
-  user,
-  investmentTransaction,
-  investmentItem,
-  saleTransaction,
-  saleItem,
   business,
+  cash,
+  expense,
+  expenseItem,
+  investment,
+  product,
+  revenue,
+  withdraw,
 ]
