@@ -6,6 +6,7 @@ import investment from './investment'
 import product from './product'
 import revenue from './revenue'
 import withdraw from './withdraw'
+import user from './user'
 
 export const schemaTypes = [
   business,
@@ -16,4 +17,5 @@ export const schemaTypes = [
   product,
   revenue,
   withdraw,
+  user,
 ]
